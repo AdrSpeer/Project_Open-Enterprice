@@ -35,7 +35,9 @@ h1 {
   font-size: clamp(3rem, 4vw, 5rem);
 }
 h2 {
-  font-size: clamp(3rem, 4vw, 4.8rem);
+  font-size: clamp(2.5rem, 3.5vw, 3.8rem);
+  font-family: bely;
+  letter-spacing: 0.3rem;
 }
 h3 {
   font-size: clamp(2.5rem, 3.3vw, 4rem);
@@ -44,7 +46,7 @@ h4 {
   font-size: clamp(2.8rem, 3.2vw, 3.8rem);
 }
 h5 {
-  font-size: clamp(2.5rem, 3vw, 3.2rem);
+  font-size: clamp(2rem, 2vw, 2.2rem);
 }
 h6 {
   font-size: clamp(1.6rem, 2.5vw, 1.8rem);
@@ -124,4 +126,61 @@ h1 {
   border-radius: 1rem;
   font-weight: bold;
   font-family: mont;
+}
+
+/* ! Main */
+
+/* work */
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 5vw;
+}
+
+.work h2 {
+  margin-bottom: 3vw;
+}
+
+.work-p {
+  width: 50vw;
+  font-size: clamp(1.6rem, 1.6vw, 1.6rem);
+  line-height: 2.5rem;
+  color: gray;
+  font-family: mont;
+  margin-bottom: 3vw;
+}
+
+.work article {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3vw;
+}
+
+.work article div {
+  width: 28vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 4px 1px #707070;
+  box-shadow: 0px 0px 4px 1px #707070;
+}
+.work article div p {
+  width: 25vw;
+  margin-bottom: 3vw;
+  font-family: mont;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: clamp(1.6rem, 1.6vw, 1.6rem);
+}
+.work article div h5 {
+  font-family: mont;
+  margin-bottom: 1vw;
+}
+.work article div img {
+  margin-top: 4vw;
+  margin-bottom: 1vw;
 }
