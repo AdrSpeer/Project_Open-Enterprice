@@ -137,7 +137,9 @@ h1 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-bottom: 5vw;
+  margin-bottom: 10vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
 }
 
 .work h2 {
@@ -175,6 +177,7 @@ h1 {
   padding-left: 1vw;
   padding-right: 1vw;
   font-size: clamp(1.6rem, 1.6vw, 1.6rem);
+  line-height: 2.2rem;
 }
 .work article div h5 {
   font-family: mont;
@@ -183,4 +186,73 @@ h1 {
 .work article div img {
   margin-top: 4vw;
   margin-bottom: 1vw;
+}
+
+/* Co-Founders */
+
+.co-founders {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  gap: 7vw;
+  margin-bottom: 5vw;
+}
+
+.kickstart {
+  width: 50vw;
+}
+
+.kickstart img {
+  margin-bottom: 1vw;
+}
+
+.kickstart h2 {
+  margin-bottom: 2.5vw;
+}
+
+.kickstart p {
+  color: gray;
+  font-family: mont;
+  line-height: 2.9rem;
+}
+
+.members {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  border: solid 2px black;
+  -webkit-box-shadow: 9px 10px 0px 0px #71a894;
+  box-shadow: 9px 10px 0px 0px #71a894;
+  padding-bottom: 2vw;
+}
+
+h6 {
+  margin-bottom: 3vw;
+  font-family: mont;
+  margin-left: 3vw;
+  margin-top: 3vw;
+}
+
+.dillion,
+.anna,
+.kas {
+  display: flex;
+  gap: 1vw;
+  margin-bottom: 1vw;
+  margin-left: 3vw;
+}
+
+.name {
+  font-family: mont;
+  font-weight: 500;
+  margin-top: 1vw;
+}
+
+.shares {
+  font-family: mont;
+  font-weight: 200;
+  margin-top: 0.3vw;
+  font-size: clamp(1.6rem, 1.6vw, 1.6rem);
 }
