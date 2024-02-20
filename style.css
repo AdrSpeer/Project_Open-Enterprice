@@ -318,7 +318,7 @@ h1 {
   margin-left: 3vw;
   margin-right: 3vw;
   gap: 7vw;
-  margin-bottom: 5vw;
+  margin-bottom: 10vw;
 }
 
 .boxes {
@@ -443,4 +443,71 @@ h1 {
   padding: 1rem;
   border-radius: 1rem;
   font-weight: 600;
+}
+
+/* enterprise */
+
+.enterprise {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+.enterprise-box {
+  text-align: center;
+  margin-bottom: 3vw;
+}
+
+.info-box {
+  display: flex;
+  justify-content: center;
+  gap: 1vw;
+  text-align: left;
+}
+
+.info {
+  -webkit-box-shadow: 0px 0px 4px 1px #707070;
+  box-shadow: 0px 0px 4px 1px #707070;
+  border-radius: 1rem;
+  padding: 1vw;
+}
+
+.info h6 {
+  font-family: mont;
+  margin-bottom: 0.5vw;
+}
+.info p {
+  font-family: mont;
+  margin-bottom: 0.5vw;
+  font-size: clamp(1.6rem, 1.6rem, 1.6rem);
+  line-height: 2.2rem;
+}
+
+.info div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info div p {
+  font-weight: 500;
+}
+
+.info div button {
+  color: white;
+  background-color: #71a894;
+  border: none;
+  border-radius: 1rem;
+}
+
+.btn-black {
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  padding: 1vw;
+  font-family: mont;
+  margin-top: 7vw;
+  border-radius: 1rem;
+  border: none;
 }
