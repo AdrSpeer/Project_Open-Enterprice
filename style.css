@@ -197,22 +197,22 @@ h1 {
   margin-left: 3vw;
   margin-right: 3vw;
   gap: 7vw;
-  margin-bottom: 5vw;
+  margin-bottom: 10vw;
 }
 
-.kickstart {
-  width: 50vw;
+.text-box {
+  width: 55vw;
 }
 
-.kickstart img {
+.text-box img {
   margin-bottom: 1vw;
 }
 
-.kickstart h2 {
+.text-box h2 {
   margin-bottom: 2.5vw;
 }
 
-.kickstart p {
+.text-box p {
   color: gray;
   font-family: mont;
   line-height: 2.9rem;
@@ -226,9 +226,10 @@ h1 {
   -webkit-box-shadow: 9px 10px 0px 0px #71a894;
   box-shadow: 9px 10px 0px 0px #71a894;
   padding-bottom: 2vw;
+  border-radius: 1rem;
 }
 
-h6 {
+.members h6 {
   margin-bottom: 3vw;
   font-family: mont;
   margin-left: 3vw;
@@ -255,4 +256,54 @@ h6 {
   font-weight: 200;
   margin-top: 0.3vw;
   font-size: clamp(1.6rem, 1.6vw, 1.6rem);
+}
+
+/* onboard */
+
+.onboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  gap: 7vw;
+  margin-bottom: 5vw;
+}
+
+.jassir {
+  display: flex;
+  flex-direction: column;
+  border: solid 2px black;
+  border-radius: 1rem;
+  padding: 2vw;
+  width: 30vw;
+}
+.jassir-img {
+  display: flex;
+  gap: 1vw;
+  margin-bottom: 2vw;
+}
+
+.jassir-text {
+  font-size: clamp(1.6rem, 1.6vw, 1.6rem);
+  font-family: mont;
+  word-spacing: 0.3rem;
+  margin-bottom: 2vw;
+  line-height: 2.5rem;
+}
+
+.jassir div:nth-of-type(2) {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 1.5vw;
+}
+
+.onboard button {
+  background-color: #303031;
+  color: white;
+  font-family: mont;
+  border: none;
+  padding: 1.5rem 0 1.5rem 0;
+  border-radius: 1rem;
+  font-weight: 600;
 }
