@@ -565,3 +565,69 @@ footer div a:last-of-type {
 footer h6 {
   font-family: mont;
 }
+
+/* # Media Queries */
+
+@media only screen and (max-width: 768px) {
+  nav div {
+    display: none;
+  }
+  .new-model {
+    margin-right: 3vw;
+  }
+  .new-model img {
+    display: none;
+  }
+  .co-founders {
+    flex-direction: column;
+  }
+  .members {
+    width: 75%;
+  }
+  .onboard {
+    flex-direction: column;
+  }
+  .jassir {
+    width: 75%;
+  }
+  .engage {
+    flex-direction: column;
+  }
+  .jassir {
+    width: 75%;
+  }
+  .boxes {
+    width: 75%;
+  }
+  .info-box {
+    flex-direction: column;
+    width: 75%;
+  }
+  .start img {
+    display: none;
+  }
+  footer div {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .work article {
+    grid-template-columns: 1fr;
+  }
+  .work article div {
+    padding: 5vw;
+    width: 75vw;
+  }
+  .boxes {
+    grid-template-columns: 1fr;
+  }
+  .first-box {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    box-shadow: none;
+  }
+  .first-box button {
+    height: 4rem;
+  }
+}
